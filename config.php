@@ -15,7 +15,7 @@
   $prefixePrive =null;
   if ($estPrive) $prefixePrive="../";
 
-  require_once $prefixePrive."DAO/ConnexionBDD.php";
+  //require_once $prefixePrive."DAO/ConnexionBDD.php";
   define("CHEMIN_WEB_IMAGE", $prefixePrive."ressources");
 
   define("DAO_ART", $prefixePrive."DAO/ArtDAO.php");
