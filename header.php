@@ -21,15 +21,16 @@ function afficherHeader($titrePage, $nomCSS) {
   <!--Import materialize.css-->
   <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
 
-  <title><?php $nomPage ?></title>
+  <title><?php echo $titrePage ?></title>
 </head>
 
 <body>
   <div class="navbar-fixed">
     <nav>
     <div class="nav-wrapper">
-      <a href="#" class="brand-logo right"><img src="ressources/logo.gif" height="80" width="80"></img></a>
+      <a href="/testSite/index" class="brand-logo right"><img src="ressources/logo.gif" height="80" width="80"></img></a>
       <ul id="nav-mobile" class="left hide-on-med-and-down">
+        <li><a href="/testSite/index">Acceuil</a></li>
         <li><a href="">Art</a></li>
         <li><a href="">About</a></li>
       </ul>
